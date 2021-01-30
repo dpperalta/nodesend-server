@@ -49,7 +49,7 @@ exports.eliminarArchivo = async(req, res) => {
     
     try {
         fs.unlinkSync(__dirname + `/../uploads/${ req.archivo }`);
-        console.log('Archivo eliminado:' + req.archivo);
+        console.log('Archivo eliminado:gi' + req.archivo);
     } catch (error) {
         console.log('Error');
     }
